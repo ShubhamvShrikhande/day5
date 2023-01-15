@@ -1,7 +1,7 @@
 echo -n "please enter  number: "
 read  num
 echo your number is $num
-if [ $num -gf 100 ]
+if [ $num -gt 100 ]
 then
 echo "it is greater than 100"
 elif [ $num -lt 100 ]
